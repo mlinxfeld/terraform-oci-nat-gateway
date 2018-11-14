@@ -7,7 +7,7 @@ variable "region" {}
 variable "private_key_oci" {}
 variable "public_key_oci" {}
 
-variable "VPC-CIDR" {
+variable "VCN-CIDR" {
   default = "10.0.0.0/16"
 }
 
